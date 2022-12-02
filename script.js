@@ -37,22 +37,22 @@ document.querySelector("#app").innerHTML = `
         ${createCard(
           "20/11",
           "domingo",
-          createGame("qatar", "13:00", "ecuador", "qatar", "ecuador")
+          createGame("qatar", "0 x 2", "ecuador", "qatar", "ecuador")
         )}
         ${createCard(
           "21/11",
           "segunda",
-          createGame("england", "10:00", "wales", "england", "wales") +
+          createGame("england", "6 x 2", "wales", "england", "wales") +
             createGame(
               "senegal",
-              "13:00",
+              "0 x 2",
               "netherlands",
               "senegal",
               "netherlands"
             ) +
             createGame(
               "united states",
-              "16:00",
+              "1 x 1",
               "wales",
               "united states",
               "wales"
@@ -63,58 +63,58 @@ document.querySelector("#app").innerHTML = `
           "terça",
           createGame(
             "argentina",
-            "07:00",
+            "1 x 2",
             "saudi arabia",
             "argentina",
             "saudi arabia"
           ) +
-            createGame("denmark", "10:00", "tunisia", "denmark", "tunisia") +
-            createGame("mexico", "13:00", "poland", "mexico", "poland") +
-            createGame("france", "16:00", "australia", "france", "australia")
+            createGame("denmark", "0 x 0", "tunisia", "denmark", "tunisia") +
+            createGame("mexico", "0 x 0", "poland", "mexico", "poland") +
+            createGame("france", "4 x 1", "australia", "france", "australia")
         )}
         ${createCard(
           "23/11",
           "quarta",
-          createGame("morocco", "07:00", "croatia", "morocco", "croatia") +
-            createGame("germany", "10:00", "japan", "germany", "japan") +
-            createGame("spain", "13:00", "costa rica", "spain", "costa rica") +
-            createGame("belgium", "16:00", "canada", "belgium", "canada")
+          createGame("morocco", "0 x 0", "croatia", "morocco", "croatia") +
+            createGame("germany", "0 x 2", "japan", "germany", "japan") +
+            createGame("spain", "7 x 0", "costa rica", "spain", "costa rica") +
+            createGame("belgium", "1 x 0", "canada", "belgium", "canada")
         )}
         ${createCard(
           "24/11",
           "quinta",
           createGame(
             "switzerland",
-            "07:00",
+            "1 x 0",
             "cameroon",
             "switzerland",
             "cameroon"
           ) +
             createGame(
               "uruguay",
-              "10:00",
+              "0 x 0",
               "south korea",
               "uruguay",
               "south korea"
             ) +
-            createGame("portugal", "13:00", "ghana", "portugal", "ghana") +
-            createGame("brazil", "16:00", "serbia", "brazil", "serbia")
+            createGame("portugal", "3 x 2", "ghana", "portugal", "ghana") +
+            createGame("brazil", "2 x 0", "serbia", "brazil", "serbia")
         )}
         ${createCard(
           "25/11",
           "sexta",
-          createGame("wales", "07:00", "iran", "wales", "iran") +
-            createGame("qatar", "10:00", "senegal", "qatar", "senegal") +
+          createGame("wales", "0 x 2", "iran", "wales", "iran") +
+            createGame("qatar", "1 x 3", "senegal", "qatar", "senegal") +
             createGame(
               "netherlands",
-              "13:00",
+              "1 x 1",
               "ecuador",
               "netherlands",
               "ecuador"
             ) +
             createGame(
               "england",
-              "16:00",
+              "0 x 0",
               "united states",
               "england",
               "united states"
@@ -123,15 +123,15 @@ document.querySelector("#app").innerHTML = `
         ${createCard(
           "26/11",
           "sábado",
-          createGame("tunisia", "07:00", "australia", "tunisia", "australia") +
+          createGame("tunisia", "0 x 1", "australia", "tunisia", "australia") +
             createGame(
               "poland",
-              "10:00",
+              "2 x 0",
               "saudi arabia",
               "poland",
               "saudi arabia"
             ) +
-            createGame("france", "13:00", "denmark", "france", "denmark") +
+            createGame("france", "2 x 1", "denmark", "france", "denmark") +
             createGame("argentina", "16:00", "mexico", "argentina", "mexico")
         )}
         ${createCard(

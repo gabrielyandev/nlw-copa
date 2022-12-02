@@ -88,7 +88,7 @@ header:hover {
 
 .card ul li strong {
     font-weight: 900;
-    font-size: 36px;
+    font-size: 1.25rem;
     line-height: 125%;
     color: rgb(255, 255, 255);
 }
@@ -126,9 +126,13 @@ header:hover {
     color: rgb(0, 0, 0);
     font-weight: bold;
     background-color: #f7dd43;
-    padding: 3px;
+    padding: 2px;
     border-radius: 10px;
     margin-top: 10px;
+}
+
+.finish {
+    text-decoration: line-through;
 }
 
 @keyframes appear {
