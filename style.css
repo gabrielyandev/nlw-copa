@@ -12,9 +12,7 @@ ul {
 }
 
 body {
-    background: #00416A;
-    background: -webkit-linear-gradient(to right, #FFE000, #799F0C, #00416A);
-    background: linear-gradient(to right, #FFE000, #799F0C, #00416A);
+    background-color: #ebd40d;
 }
 
 #app {
@@ -47,7 +45,8 @@ header:hover {
 .card {
     padding: 32px 23px;
     text-align: center;
-    background: #1d1c19;
+   /*  background: #1d1c19; */
+   background: rgb(5, 5, 105);
     border-bottom: 3px solid rgb(226, 230, 6);
     border-radius: 6px;
 }
